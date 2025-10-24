@@ -14,6 +14,9 @@ public class Main {
     }*/
 
     static int obtenerSuma(int n) {
+        if(n <0 ){
+            throw new IllegalArgumentException("The number must be no negative");
+        }
         int suma = 0;
         for (int i = 1; i <= 5; i++) {
                 suma+=i;
