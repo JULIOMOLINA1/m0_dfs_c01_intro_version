@@ -31,6 +31,6 @@ public class Main {
         }
         return factorial;
     }
-    //TODOZ > fix_002
+    //TODOZ > fix_002 , todo OK
 
 }
