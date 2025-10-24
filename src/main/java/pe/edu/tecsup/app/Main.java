@@ -17,7 +17,7 @@ public class Main {
         if(n <0 ){
             throw new IllegalArgumentException("The number must be no negative");
         }
-        int suma = 0;
+        int suma = 0;//Cambio desde el rep. clonado
         for (int i = 1; i <= 5; i++) {
                 suma+=i;
         }
